@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="test7.css" />
+
+    <script>
+      $(document).ready(function() {
+        var ckbox = $(".socialmedia__checkbox");
+
+        $("input").on("click", function() {
+          if (ckbox.is(":checked")) {
+            $(".socialmedia").css("right", "0px");
+            $(".socialmedia__rotated").css("opacity", "0");
+            $(".socialmedia__rotated").css("visibility", "hidden");
+          } else {
+            $(".socialmedia").css("right", "-29px");
+            $(".socialmedia__rotated").css("opacity", "1");
+            $(".socialmedia__rotated").css("visibility", "visible");
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+
+
+    <div class="socialmedia" id="socialmedia">
+      <input type="checkbox" class="socialmedia__checkbox" id="socialmedia-toggle" />
+      <label for="socialmedia-toggle" class="socialmedia__button">
+        <div class="socialmedia__icon">
+          <img src="./img/arrows_right.svg" alt="" />
+        </div>
+      </label>
+
+      <nav class="socialmedia__nav">
+        <ul class="socialmedia__list">
+
+          <li class="socialmedia__item">
+            <a href="#"><img src="./img/socialmedia/whatsapp.svg" alt=""/></a>
+          </li>
+          <li class="socialmedia__item">
+            <a href="#"><img src="./img/socialmedia/facebook.svg" alt=""/></a>
+          </li>
+          <li class="socialmedia__item">
+            <a href="#"><img src="./img/socialmedia/line.svg" alt=""/></a>
+          </li>
+          <li class="socialmedia__item">
+            <a href="#"><img src="./img/socialmedia/messenger.svg" alt=""/></a>
+          </li>
+          <li class="socialmedia__item">
+            <a href="#"><img src="./img/socialmedia/wechat.svg" alt=""/></a>
+          </li>
+        </ul>
+      </nav>
+      <label class="socialmedia__rotated" lang="th" for="socialmedia-toggle"
+        >ติดต่อสอบถามได้ที่</label
+      >
+    </div>
+
+    
+  </body>
+</html>

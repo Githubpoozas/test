@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+
+    }
+    .swiper-container__slide2 {
+      padding: 0;
+      margin: auto;
+      width: 925px;
+      height: 370px;
+
+    }
+    .swiper-wrapper__slide2{
+      padding: 0;
+      margin: 0;
+    }
+    .swiper-slide__slide2 {
+      padding:0;
+      margin:0;
+
+      border-radius: 90%;
+      /* width: 200px; */
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* height: calc((100% - 30px) / 2); */
+      width: 185px;
+      height: 185px;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container swiper-container__slide2">
+    <div class="swiper-wrapper swiper-wrapper__slide2">
+      <div class="swiper-slide swiper-slide__slide2" style="background-color:red">Slide 1</div>
+      <div class="swiper-slide swiper-slide__slide2" style="background-color: green">Slide 2</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 3</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 4</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 5</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 6</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 7</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 8</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 9</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 10</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 11</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 12</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 13</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 14</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 15</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 16</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 17</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 18</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 19</div>
+      <div class="swiper-slide swiper-slide__slide2">Slide 20</div>
+    </div>
+    <!-- Add Pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+  </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container__slide2', {
+      slidesPerView: 5,
+      slidesPerColumn: 2,
+      slidesPerGroup: 5,
+      // loop: true,
+      // loopFillGroupWithBlank: true,
+    //   slidesPerColumnFill: 'column',
+      // spaceBetween: 30,
+      // pagination: {
+      //   el: '.swiper-pagination',
+      //   clickable: true,
+      // },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style> 
+    body {
+  padding: 20px 60px 40px;
+}
+
+.slider-produtos-wrap {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  height: 1000px;
+}
+
+.swiper-slide {
+  z-index: 1;
+  height: 500px;
+  background: blue;
+}
+
+.swiper-prev,
+.swiper-next {
+  width: 60px;
+  height: 60px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 60px;
+  z-index: 9999;
+}
+
+.swiper-prev {
+  left: -30px;
+}
+
+.swiper-next {
+  right: -30px;
+}
+    </style>
+</head>
+<body>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+<div class="slider-produtos-wrap">
+  <div class="slider-produtos-destaque swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+    </div>
+  </div>
+
+  <div class="swiper-prev"></div>
+  <div class="swiper-next"></div>
+
+</div>
+
+<div class="slider-produtos-wrap">
+  <div class="slider-produtos-destaque swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+    </div>
+  </div>
+
+  <div class="swiper-prev"></div>
+  <div class="swiper-next"></div>
+
+</div>
+
+<script>
+document.querySelectorAll('.swiper-container').forEach(function(elem) {
+  new Swiper(elem, {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: elem.nextElementSibling.nextElementSibling,
+      prevEl: elem.nextElementSibling,
+    }
+  });
+});
+</script>
+</body>
+</html>

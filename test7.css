@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 3000px;
+}
+
+.socialmedia {
+  background-color: gray;
+  width: auto;
+  position: fixed;
+  top: 50px;
+  right: -29px;
+}
+
+.socialmedia__checkbox {
+  display: none;
+}
+
+.socialmedia__button {
+  text-align: left;
+}
+
+.socialmedia__icon {
+  margin: 7px 0 5px -3px;
+}
+
+.socialmedia__icon img {
+  width: 35px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.socialmedia__nav {
+  background-color: lightgray;
+  width: auto;
+  padding: 5px 0;
+}
+
+.socialmedia__list {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}
+
+.socialmedia__item {
+  width: 100%;
+  padding: 0;
+  margin-right: 5px;
+}
+
+.socialmedia__item a {
+  display: block;
+  height: 100%;
+}
+
+.socialmedia__item a img {
+  width: 50px;
+}
+
+.socialmedia__checkbox:checked ~ .socialmedia__button .socialmedia__icon img {
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+}
+
+.socialmedia__rotated {
+  opacity: 1;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  z-index: 8000;
+  position: fixed;
+  top: 101px;
+  font-size: 18px;
+  background-color: lightgray;
+  color: gray;
+  padding: 2px;
+  text-align: center;
+  height: 276px;
+}
+/*# sourceMappingURL=test7.css.map */

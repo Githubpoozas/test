@@ -1,0 +1,36 @@
+.cloth {
+  position: relative;
+  display: block;
+}
+
+.cloth__side {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.cloth__side a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.cloth__side--front {
+  opacity: 1;
+}
+
+.cloth__side--back {
+  opacity: 0;
+}
+
+.cloth__side--front:hover {
+  opacity: 0;
+}
+
+.cloth__side--back:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=test5.css.map */
