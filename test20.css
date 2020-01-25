@@ -1,0 +1,85 @@
+.buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.line {
+  background-image: -webkit-gradient(linear, left top, right top, from(#49b848), to(#10532b));
+  background-image: linear-gradient(to right, #49b848, #10532b);
+}
+
+.call {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2c368f), to(#080a22));
+  background-image: linear-gradient(to right, #2c368f, #080a22);
+}
+
+.btn-buy,
+.btn-buy:link,
+.btn-buy:visited {
+  margin: 10px;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 25px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-buy:hover {
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+  -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-buy:active {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.btn-buy--animated {
+  -webkit-animation: moveInBottom .5s ease-out .75s;
+          animation: moveInBottom .5s ease-out .75s;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+}
+
+.line:active {
+  background-image: -webkit-gradient(linear, right top, left top, from(#49b848), to(#10532b));
+  background-image: linear-gradient(to left, #49b848, #10532b);
+}
+
+.call:active {
+  background-image: -webkit-gradient(linear, right top, left top, from(#2c368f), to(#080a22));
+  background-image: linear-gradient(to left, #2c368f, #080a22);
+}
+
+@-webkit-keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(3rem);
+            transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+/*# sourceMappingURL=test20.css.map */

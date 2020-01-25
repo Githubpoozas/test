@@ -76,14 +76,6 @@ body {
   height: 100%;
 }
 
-.column-front {
-  background-color: skyblue;
-}
-
-.column-back {
-  background-color: purple;
-}
-
 .gender__btn {
   display: inline-block;
   background-color: #5C5C5C;
