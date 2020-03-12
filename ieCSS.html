@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+        }
+        .ie{
+            background-color: red;
+        }
+        .chrome{
+            background-color: blue;
+        }
+        /*  IE10+ */
+
+/*  IE6,7  */
+ @media screen\9 {
+  .ie { max-height: 56px; }
+ }
+
+ /* IE8  */
+ @media \0screen {
+  .ie { max-height: 56px; }
+ }
+
+/*  IE6,7,8  */
+ @media \0screen\,screen\9 {
+  .ie { max-height: 56px; }
+ }
+
+ /* IE9,10  */
+ @media screen and (min-width:0\0){
+  .ie { max-height: 56px; }
+ }
+    </style>
+</head>
+<body>
+    <div class="ie">
+
+    </div>
+<div class="chrome">
+
+</div>
+</body>
+</html>

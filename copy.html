@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" value="This is value come from input" class="inputBox">
+    <button class="copyButton">Button</button>
+
+    <script src="./jquery-3.4.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".copyButton").on("click",function(){
+            $(".inputBox").select();
+            document.execCommand("copy");
+        })
+    })
+</script>
+</body>
+</html>
