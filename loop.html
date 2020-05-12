@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <style>
+    img{
+        width: 100px;
+    }
+    </style>
+  </head>
+  <body>
+      <button id="button">Read file</button>
+    <div id="loop">
+
+    </div>
+
+    <script src="./jquery-3.4.1.min.js"></script>
+
+    <script>
+      $(document).ready(function() {
+        // var fruit = ["orange", "apple", "banana", "grapes", "kiwi"];
+        // $.each(fruit, function(index, value) {
+        //   console.log(index + " " + value);
+
+        //   $('#loop').append(`<p>${value}<p>`)
+        // });
+
+        // for(i = 0; i< 10; i++){
+        //     $('#loop').append(`<p>${i}</p>`);
+        // }
+
+$('#button').on('click',function(){
+
+    // $('#loop').load('demo_text.txt').append('<p></p>');
+    // $('#loop').append($('<p>').load('demo_text.txt'));
+
+    // $('#loop').html($('<img>').attr('src','./img/item/item_1.jpg'));
+
+var dir = './img/item';
+var fileExtension = ['.jpg'];
+var textul = '';
+var x;
+
+$.ajax({
+    url:dir,
+    type:'Get',
+    async: false,
+    cache: false,
+    success: function(data){
+        if(data.indexOf(dir)>-1){
+            console.log(data);
+        }
+    }
+})
+
+})
+
+
+
+      });
+    </script>
+  </body>
+</html>

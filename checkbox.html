@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .red {
+        color: red;
+      }
+      .box {
+        /* display: none; */
+      }
+    </style>
+  </head>
+  <body>
+    <form action="/action_page.php">
+      <input
+        class="box"
+        type="checkbox"
+        id="vehicle1"
+        name="vehicle1"
+        value="Bike"
+      />
+      <label for="vehicle1"> I have a bike</label><br />
+      <input
+        class="box"
+        type="checkbox"
+        id="vehicle2"
+        name="vehicle2"
+        value="Car"
+      />
+      <label for="vehicle2"> I have a car</label><br />
+      <input
+        class="box"
+        type="checkbox"
+        id="vehicle3"
+        name="vehicle3"
+        value="Boat"
+      />
+      <label for="vehicle3"> I have a boat</label><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <p id="counter"></p>
+    <button type="button" id="clear">clear</button>
+
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("label").on("click", function() {
+          $(this).css("color", "red");
+          console.log(this)
+        });
+      });
+    </script>
+
+    <!-- <script>
+
+        let checkbox = document.querySelectorAll("input[class='box']");
+        let counter = document.getElementById("counter");
+        function counterBox(){
+            let checkedBox = document.querySelectorAll("input[class='box']:checked")
+                if(checkedBox.length === 0){
+                    counter.innerHTML = '';
+                } else{
+                    counter.innerHTML = checkedBox.length;
+                }
+        }
+        checkbox.forEach((box)=>{
+            box.addEventListener("click",()=>{
+                counterBox()
+            })
+        })
+        // for(let i = 0;i<checkbox.length; i++){
+        //     checkbox[i].addEventListener("click",()=>{
+        //         checkbox[i].nextElementSibling.classList.toggle("red");
+        //         document.getElementById("counter").innerHTML = document.querySelectorAll("input[class='box']:checked").length;
+        //     })
+        // }
+        let clear = document.getElementById("clear");
+        clear.addEventListener("click",()=>{
+            checkbox.forEach((box)=>{
+                box.checked = false;
+                counterBox()
+            })
+        })
+  
+      </script> -->
+  </body>
+</html>

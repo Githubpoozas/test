@@ -1,0 +1,28 @@
+[
+  {
+    "gallery": [
+      {
+        "colorName": "white",
+        "img": ["1white1.jpg", "1white2.jpg", "1white3", "1white4.jpg"]
+      },
+      {
+        "colorName": "cream",
+        "img": ["2cream1.jpg", "2cream2.jpg", "2cream3", "2cream4.jpg"]
+      }
+    ]
+  },
+  {
+    "detail": [
+      { "sex": "male", "link": "www.google.com", "otherLink": "www.wikia.com" },
+      { "name": "T-shirt no.0020" },
+      { "p1": ["1111111111111", "22222222222222", "333333333"] },
+      {
+        "size": [
+          ["s", 11111, "1111", "1111"],
+          ["m", "22222", "222222", "22222222"]
+        ]
+      },
+      { "p2": ["1111111111111111", "222222222222222"] }
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .frame1{
+            height: 200px;
+      overflow: hidden;
+      margin-bottom:10px;
+      position: relative;
+
+        }
+
+    .pic1{
+height: 300px;
+
+    }
+    .frame2{
+    height: 200px;
+      overflow: hidden;
+      position: relative;
+        }
+
+    .pic2{
+height: 300px;
+position: absolute;
+bottom: 0;
+
+    }
+
+    .frame3{
+        background-image: url(./img/item/item_1.jpg);
+        width: 100%;
+        height: 50vh;
+    }
+    </style>
+
+
+</head>
+<body>
+
+    <div class="frame1">
+<img class="pic1" src="./img/item/item_1.jpg" alt="" >
+    </div>
+    <div class="frame2">
+        <img class="pic2" src="./img/item/item_2.jpg" alt="" >
+            </div>
+
+            <div class="frame3">
+
+            </div>
+    <div class="frame4">
+                
+            </div>
+
+    <script src="./jquery-3.4.1.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+        $(".crop").on('click',function(){
+        })
+    })
+    </script>
+</body>
+</html>

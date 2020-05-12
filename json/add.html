@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <style>
+      #addInput,
+      #submitButton {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="form"></form>
+    <button id="submit">submit</button>
+
+    <button id="addInput">Add input</button>
+    <script>
+      $(document).ready(function() {
+        function genClass() {
+          return Math.floor(Math.random() * 26) + Date.now();
+        }
+        function appendFiled() {
+          var inputClassName = genClass();
+          $("#form").append(
+            `<div class="inputcontainer"><label class="input${inputClassName}" for="input${inputClassName}">Font: </label><input class="fontInput input${inputClassName}" type="text" name="input${inputClassName}">
+                <label class="input${inputClassName}" for="input${inputClassName}">Back: </label><input class="backInput input${inputClassName}" type="text" name="input${inputClassName}">
+                <button class="up" type="button">UP</button><button class="down" type="button">DOWN</button><button class="removeInput input${inputClassName}" type="button">remove</button></div>`
+          );
+        }
+        appendFiled();
+        $("#addInput").on("click", function() {
+          appendFiled();
+        });
+
+
+  
+      });
+      var mainObject = {};
+      $(document).on("click", "#submit", function() {
+        mainObject = {};
+        $(".inputcontainer").each(function() {
+          var objName = $(this)
+            .find("label")
+            .attr("class");
+          if (
+            $(this)
+              .find(".fontInput")
+              .val() &&
+            $(this)
+              .find(".backInput")
+              .val()
+          ) {
+            mainObject[objName] = {
+              font: $(this)
+                .find(".fontInput")
+                .val(),
+              back: $(this)
+                .find(".backInput")
+                .val()
+            };
+          }
+        });
+        console.log(mainObject);
+      });
+
+      $(document).on("click",".up",function(){
+          $(this).parent().prev().before($(this).parent());
+        })
+        $(document).on("click",".down",function(){
+          $(this).parent().next().after($(this).parent());
+        })
+      $(document).on("click", ".removeInput", function() {
+        var inputClass = $(this)
+          .attr("class")
+          .split(" ")[1];
+        $("." + inputClass)
+          .parent()
+          .remove();
+        var inputFieldValue = $(this)
+          .parent()
+          .find("input")
+          .val();
+        delete mainObject[inputClass];
+        console.log(mainObject);
+      });
+    </script>
+  </body>
+</html>

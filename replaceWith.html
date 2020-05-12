@@ -7,32 +7,40 @@
     <title>Document</title>
 
     <style>
-      .box {
+      div {
         width: 100px;
         height: 100px;
-        background-color: blue;
       }
-
-      .redbox {
-        background-color: red !important;
+      .red{
+          background-color: red;
+      }
+      .blue{
+          background-color: blue;
+      }
+      .yellow{
+          background-color: yellow;
+      }
+      .blank{
+        width: max-content;
+        height: max-content;
       }
     </style>
   </head>
   <body>
-    <div id="test" class="box"></div>
+    <div class="red"></div>
+    <div class="blank"></div>
+    <div class="blue"></div>
+    <div class="yellow"></div>
 
     <script src="./jquery-3.4.1.min.js"></script>
 
     <script>
       $(document).ready(function() {
-        $("#test").on("click", function() {
-          $("#test").after('<div class="box redbox"></div>')
+        $(".blue").on("click", function() {
+          $(".yellow").appendTo(".blank");
         });
 
-        $('.redbox').on('click',function(){
-          console.log('test');
-        })
- 
+        $('.blue').trigger('click');
       });
     </script>
   </body>

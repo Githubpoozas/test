@@ -10,29 +10,25 @@
       .box {
         width: 100px;
         height: 100px;
-        background-color: blue;
+        display: none;
       }
 
-      .redbox {
-        background-color: red !important;
+      .red {
+        background-color: red;
       }
     </style>
   </head>
   <body>
-    <div id="test" class="box"></div>
+    <div class="box red"></div>
+    <button>show the box</button>
 
     <script src="./jquery-3.4.1.min.js"></script>
 
     <script>
       $(document).ready(function() {
-        $("#test").on("click", function() {
-          $("#test").after('<div class="box redbox"></div>')
-        });
-
-        $('.redbox').on('click',function(){
-          console.log('test');
-        })
- 
+          $('button').on('click',function(){
+              $('red').show();
+          })
       });
     </script>
   </body>

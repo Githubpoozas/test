@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+<body>
+
+
+<input type="text" value="Hello world" id="wechatID" >
+<button onclick="myFunction()">Copy text</button>
+<i class="fas fa-clock" style="font-size:36px;" onclick="test()"></i>
+
+<i class="far fa-copy"></i>
+<script>
+function myFunction() {
+  var copyText = document.getElementById("wechatID");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copied the text: " + copyText.value);
+}
+
+</script>
+
+ <label for="wechatqr">ID</label>
+<input type="text" value="natika001" id="wechatqr" disabled>
+<i class="far fa-copy copyicon btn-shadow" onclick="copyqr()">
+</i>
+<script>
+function copyqr() {
+  var copyText = document.getElementById("wechatqr");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copied the text: " + copyText.value);
+
+}
+</script>
+
+</body>
+</html>

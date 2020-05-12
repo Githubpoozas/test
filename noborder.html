@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        border: none;
+      }
+      div {
+        height: 100vh;
+        width: 100%;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/item/item_1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/item/item_2.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./img/item/item_1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./img/item/item_2.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/response.min.js"></script>
+
+    <script>
+          var swiper = new Swiper('.swiper-container');
+    </script>
+  </body>
+</html>

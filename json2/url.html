@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button type="button" class="foo">foo</button>
+    <button type="button" class="foo2">foo2</button>
+
+    <script src="../jquery-3.4.1.min.js"></script>
+
+    <script>
+        $(".foo").click(function() {
+      location.hash = "parameter1=123&parameter2=abc";
+});
+$(".foo2").click(function() {
+      location.hash = "parameter1=987&parameter2=zyx";
+});
+
+    </script>
+</body>
+</html>

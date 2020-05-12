@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="first" src="../img/item/item_1.jpg" alt="" style="width: 400px;">
+
+    <script>
+        let urlLo = window.location.href;
+        let urlarr = urlLo.split("?");
+        if(urlarr[1]){
+            console.log(urlarr[1]);
+            console.log("param found");
+        }
+        // let img = urlarr[1].split("=");
+
+        // console.log(img[1])
+
+        // let first = document.getElementById("first");
+        // first.src = img[1];
+    </script>
+</body>
+</html>

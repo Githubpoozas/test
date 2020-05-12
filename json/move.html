@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <p>Line1</p>
+      <p>Line2</p>
+      <p>Line3</p>
+      <p class="move">this one move</p>
+      <p>Line5</p>
+      <p>Line6</p>
+    </div>
+    <button type="button" class="up">Up</button>
+    <button type="button" class="down">Down</button>
+<script>
+    $(document).ready(function(){
+        var e = $('.move');
+
+        $('.up').on('click',function(){
+            e.prev().before(e);
+        })
+        $('.down').on('click',function(){
+            e.next().after(e);
+        })
+    })
+</script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+[
+  [
+    {
+      "productFistName": "t-shirt 0020",
+      "productSecondName": "เสื้อยืดรหัส 0020",
+      "productLink": "www.google.com"
+    },
+    {
+      "slide": [
+        "1white1.jpg",
+        "1white2.jpg",
+        "t-shrit 0020 white",
+        "เสื้อยืด รหัส 0020 สีขาว",
+        "199 ฿"
+      ]
+    },
+    {
+      "productFistName": "t-shirt 0051",
+      "productSecondName": "เสื้อยืดรหัส 0051",
+      "productLink": "www.google.com"
+    },
+    {
+      "slide": [
+        "2cream1.jpg",
+        "2cream2.jpg",
+        "t-shrit 0020 white",
+        "เสื้อยืด รหัส 0020 สีขาว",
+        "199 ฿"
+      ]
+    }
+  ]
+]

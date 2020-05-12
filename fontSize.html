@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <p>hello there!!!</p>
     <script>
-//     function getDefaultFontSize(pa) {
-//   pa = pa || document.body;
-//   var who = document.createElement("div");
+      //     function getDefaultFontSize(pa) {
+      //   pa = pa || document.body;
+      //   var who = document.createElement("div");
 
-//   who.style.cssText =
-//     "display:inline-block; padding:0; line-height:1; position:absolute; visibility:hidden; font-size:1em";
+      //   who.style.cssText =
+      //     "display:inline-block; padding:0; line-height:1; position:absolute; visibility:hidden; font-size:1em";
 
-//   who.appendChild(document.createTextNode("M"));
-//   pa.appendChild(who);
-//   var fs = [who.offsetWidth, who.offsetHeight];
-//   pa.removeChild(who);
-//   return fs;
-// }
+      //   who.appendChild(document.createTextNode("M"));
+      //   pa.appendChild(who);
+      //   var fs = [who.offsetWidth, who.offsetHeight];
+      //   pa.removeChild(who);
+      //   return fs;
+      // }
 
-// alert(getDefaultFontSize());
+      // alert(getDefaultFontSize());
 
-const fontSize = Number(window.getComputedStyle(document.body).getPropertyValue('font-size').match(/\d+/)[0])
+      const fontSize = Number(
+        window
+          .getComputedStyle(document.body)
+          .getPropertyValue("font-size")
+          .match(/\d+/)[0]
+      );
 
-console.log("Default font size: " + fontSize);
+      console.log("Default font size: " + fontSize);
     </script>
-</body>
+  </body>
 </html>

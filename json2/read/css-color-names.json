@@ -1,0 +1,10 @@
+{
+    "aliceblue": "#f0f8ff",
+    "antiquewhite": "#faebd7",
+    "aqua": "#00ffff",
+    "aquamarine": "#7fffd4",
+    "azure": ["#f0ffff",{"22222": "test"}],
+    "beige": "#f5f5dc",
+    "bisque": {"object":[111111,8888888]},
+    "black": "#000000"
+  }

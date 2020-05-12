@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://clipboardjs.com/bower_components/primer-css/css/primer.css">
+
+</head>
+<body>
+    <div class="input-group">
+        <input id="foo" type="text" value="https://github.com/zenorocha/clipboard.js.git">
+        <span class="input-group-button">
+        <button class="btn" type="button" data-clipboard-demo data-clipboard-target="#foo">
+        <img class="clippy" src="assets/images/clippy.svg" width="13" alt="Copy to clipboard">
+        </button>
+        </span>
+        </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+
+    <script>
+        new ClipboardJS('.btn');
+    </script>
+</body>
+</html>

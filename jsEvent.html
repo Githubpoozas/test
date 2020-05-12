@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        transition: all 0.8s;
+      }
+      .red {
+        background-color: red;
+      }
+      .blue {
+        background-color: blue;
+      }
+      .moreWidth {
+        width: 500px;
+        height: 300px;
+      }
+      .block{
+        display: block !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box red" id="red"></div>
+    <div class="box blue"></div>
+    <ul class="level1-container">
+      <li class="level1">
+        level 1
+      </li>
+      <ul class="level2-container">
+        <li class="level2">level 2</li>
+      </ul>
+    </ul>
+    <ul class="level1-container">
+      <li class="level1">
+        level 1
+      </li>
+      <ul class="level2-container">
+        <li class="level2">level 2</li>
+      </ul>
+    </ul>
+
+    <li class="sub">
+      Gallery
+      <ul style="display: none;">
+        <li>link</li>
+        <li>link 1</li>
+        <li>link 2</li>
+        <li>link 3</li>
+      </ul>
+    </li>
+    <li class="sub">
+      Gallery
+      <ul style="display: none;">
+        <li>link</li>
+        <li>link 1</li>
+        <li>link 2</li>
+        <li>link 3</li>
+      </ul>
+    </li>
+    <p>test1</p>
+    <p>test2</p>
+    <p>test3</p>
+    <button id="goRed">Go red</button>
+    <script>
+      var boxs = document.getElementsByClassName("box");
+      for (var i = 0; i < boxs.length; i++) {
+        boxs[i].addEventListener("click", e => {
+          // e.target.style.backgroundColor="green";
+          // e.target.style.width= 500+ "px";
+          e.target.classList.toggle("moreWidth");
+          console.log(this);
+        });
+      }
+      var level1 = document.getElementsByClassName("level1");
+
+      for (var l = 0; l < level1.length; l++) {
+        level1[l].addEventListener("click", e => {
+          e.target.classList.toggle("red");
+        });
+      }
+
+      var drop = document.getElementsByClassName("sub");
+      for (let i = 0; i < drop.length; i++) {
+        drop[i].addEventListener("click", function() {
+          // if (drop[i].querySelector("ul").style.display === "none") {
+          //   drop[i].querySelector("ul").style.display = "block";
+          // } else {
+          //   drop[i].querySelector("ul").style.display = "none";
+          // }
+          // drop[i].querySelector("ul").classList.toggle("block")
+          drop[i].querySelector("ul").classList.toggle("block")
+
+        });
+      }
+var para = document.querySelectorAll("p");
+// for(let k = 0;k < para.length; k++){
+//   para[k].addEventListener("click",function(e){
+//     para[k].classList.toggle("red");
+//   })
+// }
+
+document.getElementById("goRed").addEventListener("click",function(){
+  para.forEach(function(e){
+  e.classList.add("red")
+})
+})
+
+    </script>
+  </body>
+</html>
