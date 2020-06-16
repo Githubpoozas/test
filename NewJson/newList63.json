@@ -1,0 +1,164 @@
+{
+  "RING": [
+    {
+      "code": "63R001",
+      "goldWeight": 4.44,
+      "diamondWeight": ["D1=0.07"],
+      "yellowGoldPrice": 17600,
+      "whiteGoldPrice": 20000
+    },
+    {
+      "code": "63R002",
+      "goldWeight": 1.81,
+      "diamondWeight": ["D17=0.19"],
+      "yellowGoldPrice": 12200,
+      "whiteGoldPrice": 13200
+    },
+    {
+      "code": "63R003",
+      "goldWeight": 2.13,
+      "diamondWeight": ["D12=0.06", "D16=0.19"],
+      "yellowGoldPrice": 15800,
+      "whiteGoldPrice": 17000
+    },
+    {
+      "code": "63R004",
+      "whiteGoldWeight": 3.18,
+      "diamondWeight": ["D7=0.30"],
+      "yellowGoldPrice": 19300,
+      "whiteGoldPrice": 21000
+    },
+    {
+      "code": "63R005",
+      "goldWeight": 1.75,
+      "diamondWeight": ["D6=0.06", "D13=0.14"],
+      "yellowGoldPrice": 12000,
+      "whiteGoldPrice": 13000
+    },
+    {
+      "code": "63R006",
+      "goldWeight": 2.59,
+      "diamondWeight": ["D1=0.15"],
+      "yellowGoldPrice": 17400,
+      "whiteGoldPrice": 19000
+    },
+    {
+      "code": "63R007",
+      "goldWeight": 2.13,
+      "diamondWeight": ["D3=0.05"],
+      "yellowGoldPrice": 8800,
+      "whiteGoldPrice": 10000
+    },
+    {
+      "code": "63R008",
+      "goldWeight": 1.25,
+      "diamondWeight": ["D1=0.02"],
+      "yellowGoldPrice": 5400,
+      "whiteGoldPrice": 6100
+    },
+    {
+      "code": "63R009",
+      "goldWeight": 3.1,
+      "diamondWeight": ["D3=0.19"],
+      "yellowGoldPrice": 15600,
+      "whiteGoldPrice": 17300
+    },
+    {
+      "code": "63R010",
+      "goldWeight": 1.65,
+      "diamondWeight": ["D1=0.09", "D10=0.06", "D12=0.14"],
+      "yellowGoldPrice": 15400,
+      "whiteGoldPrice": 16300
+    },
+    {
+      "code": "63R011",
+      "goldWeight": 2.4,
+      "diamondWeight": ["D16=0.15", "D17=0.22"],
+      "yellowGoldPrice": 19400,
+      "whiteGoldPrice": 20700
+    },
+    {
+      "code": "63R012",
+      "goldWeight": 1.32,
+      "diamondWeight": ["D1=0.03"],
+      "yellowGoldPrice": 6400,
+      "whiteGoldPrice": 7100
+    },
+    {
+      "code": "63R013",
+      "goldWeight": 1.45,
+      "diamondWeight": ["D13=0.10"],
+      "yellowGoldPrice": 9200,
+      "whiteGoldPrice": 10000
+    },
+    {
+      "code": "62R014",
+      "goldWeight": 1.4,
+      "diamondWeight": ["D32=0.16"],
+      "yellowGoldPrice": 11000,
+      "whiteGoldPrice": 11800
+    },
+    {
+      "code": "63R015",
+      "goldWeight": 2.09,
+      "diamondWeight": ["D23=0.16"],
+      "yellowGoldPrice": 13400,
+      "whiteGoldPrice": 14600
+    }
+  ],
+  "EARRING": [
+    {
+      "code": "63E001",
+      "goldWeight": 4.39,
+      "diamondWeight": ["D66=0.22"],
+      "yellowGoldPrice": 23800,
+      "whiteGoldPrice": 26200
+    },
+    {
+      "code": "63E002",
+      "goldWeight": 6.1,
+      "diamondWeight": ["D24=0.55", "D30=0.96"],
+      "yellowGoldPrice": 61600,
+      "whiteGoldPrice": 65000
+    },
+    {
+      "code": "63E003",
+      "goldWeight": 2.85,
+      "diamondWeight": ["D14=0.62"],
+      "yellowGoldPrice": 26400,
+      "whiteGoldPrice": 28000
+    },
+    {
+      "code": "63E004",
+      "goldWeight": 5.5,
+      "diamondWeight": ["D2=0.18", "D12=0.55", "D40=0.43"],
+      "yellowGoldPrice": 54000,
+      "whiteGoldPrice": 57000
+    },
+    {
+      "code": "63E005",
+      "whiteGoldWeight": 1.72,
+      "diamondWeight": ["D2=0.24"],
+      "yellowGoldPrice": 17100,
+      "whiteGoldPrice": 18000
+    }
+  ],
+  "BRACELET": [
+    {
+      "code": "63B001",
+      "goldWeight": 6.84,
+      "diamondWeight": ["D30=0.28", "D5=0.08", "D6=0.24"],
+      "yellowGoldPrice": 43400,
+      "whiteGoldPrice": 47200
+    }
+  ],
+  "PANDANT": [
+    {
+      "code": "63P001",
+      "goldWeight": 1.75,
+      "diamondWeight": ["D1=0.09", "D6=0.28", "D23=0.26"],
+      "yellowGoldPrice": 25000,
+      "whiteGoldPrice": 26000
+    }
+  ]
+}

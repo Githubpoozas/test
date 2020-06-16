@@ -99,11 +99,11 @@
         });
       }
 var para = document.querySelectorAll("p");
-// for(let k = 0;k < para.length; k++){
-//   para[k].addEventListener("click",function(e){
-//     para[k].classList.toggle("red");
-//   })
-// }
+for(let k = 0;k < para.length; k++){
+  para[k].addEventListener("click",function(e){
+    para[k].classList.toggle("red");
+  })
+}
 
 document.getElementById("goRed").addEventListener("click",function(){
   para.forEach(function(e){

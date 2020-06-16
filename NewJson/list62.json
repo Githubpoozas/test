@@ -1,0 +1,756 @@
+{
+  "RING": [
+    {
+      "code": "62R001",
+      "goldWeight": "1.98",
+      "diamondWeight": "D7=0.31",
+      "field4": "D10=0.12",
+      "field5": "",
+      "yellowGoldPrice": "19000",
+      "whiteGoldPrice": "20000"
+    },
+    {
+      "code": "62R002",
+      "goldWeight": "3.08",
+      "diamondWeight": "D14=0.27",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "18000",
+      "whiteGoldPrice": "19600"
+    },
+    {
+      "code": "62R003",
+      "goldWeight": "3.54",
+      "diamondWeight": "D7=0.13",
+      "field4": "D106=0.24",
+      "field5": "",
+      "yellowGoldPrice": "25000",
+      "whiteGoldPrice": "27000"
+    },
+    {
+      "code": "62R004",
+      "whiteGoldWeight":"2.01",
+      "diamondWeight": "D38=0.26",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "16400",
+      "whiteGoldPrice": "17500"
+    },
+    {
+      "code": "62R005",
+      "whiteGoldWeight":"2.25",
+      "diamondWeight": "D16=0.26",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "14800",
+      "whiteGoldPrice": "16000"
+    },
+    {
+      "code": "62R006",
+      "whiteGoldWeight":"3.47",
+      "diamondWeight": "D15=0.20",
+      "field4": "D30=0.09",
+      "field5": "",
+      "yellowGoldPrice": "20100",
+      "whiteGoldPrice": "22000"
+    },
+    {
+      "code": "62R007",
+      "whiteGoldWeight":"2.90",
+      "diamondWeight": "D1=0.11",
+      "field4": "D54=0.39",
+      "field5": "",
+      "yellowGoldPrice": "25400",
+      "whiteGoldPrice": "27000"
+    },
+    {
+      "code": "62R008",
+      "whiteGoldWeight":"4.18",
+      "diamondWeight": "D1=0.09",
+      "field4": "D6=0.09",
+      "field5": "",
+      "yellowGoldPrice": "20200",
+      "whiteGoldPrice": "22500"
+    },
+    {
+      "code": "62R009",
+      "goldWeight": "1.36",
+      "diamondWeight": "D19=0.15",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "10000",
+      "whiteGoldPrice": "10700"
+    },
+    {
+      "code": "62R010",
+      "goldWeight": "1.91",
+      "diamondWeight": "D1=0.03",
+      "field4": "D11=0.08",
+      "field5": "",
+      "yellowGoldPrice": "10000",
+      "whiteGoldPrice": "11000"
+    },
+    {
+      "code": "62R011",
+      "goldWeight": "2.44",
+      "diamondWeight": "D1=0.06",
+      "field4": "D6=0.07",
+      "field5": "",
+      "yellowGoldPrice": "11500",
+      "whiteGoldPrice": "12800"
+    },
+    {
+      "code": "62R012",
+      "goldWeight": "5.4",
+      "diamondWeight": "D34=0.56",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "31000",
+      "whiteGoldPrice": "33900"
+    },
+    {
+      "code": "62R013",
+      "goldWeight": "",
+      "diamondWeight": "",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "0",
+      "whiteGoldPrice": "0"
+    },
+    {
+      "code": "62R014",
+      "goldWeight": "2.54",
+      "diamondWeight": "D2=0.04",
+      "field4": "D7=21",
+      "field5": "D28=0.14",
+      "yellowGoldPrice": "20000",
+      "whiteGoldPrice": "21380"
+    },
+    {
+      "code": "62R015",
+      "goldWeight": "2.6",
+      "diamondWeight": "D14=0.12",
+      "field4": "D22=0.24",
+      "field5": "",
+      "yellowGoldPrice": "19000",
+      "whiteGoldPrice": "20400"
+    },
+    {
+      "code": "62R016",
+      "goldWeight": "3.13",
+      "diamondWeight": "D1=0.10",
+      "field4": "D30=0.15",
+      "field5": "",
+      "yellowGoldPrice": "20000",
+      "whiteGoldPrice": "21700"
+    },
+    {
+      "code": "62R017",
+      "goldWeight": "5.86",
+      "diamondWeight": "D16=0.37",
+      "field4": "D22=0.25",
+      "field5": "D38=0.31",
+      "yellowGoldPrice": "45000",
+      "whiteGoldPrice": "48100"
+    },
+    {
+      "code": "62R018",
+      "goldWeight": "2.78",
+      "diamondWeight": "D1=0.11",
+      "field4": "D56=0.16",
+      "field5": "",
+      "yellowGoldPrice": "20500",
+      "whiteGoldPrice": "22000"
+    },
+    {
+      "code": "62R019",
+      "goldWeight": "2.54",
+      "diamondWeight": "D2=0.04",
+      "field4": "D7=0.21",
+      "field5": "D28=0.14",
+      "yellowGoldPrice": "22000",
+      "whiteGoldPrice": "23380"
+    },
+    {
+      "code": "62R020",
+      "goldWeight": "2.58",
+      "diamondWeight": "D1=0.03",
+      "field4": "D10=0.09",
+      "field5": "",
+      "yellowGoldPrice": "12500",
+      "whiteGoldPrice": "13900"
+    },
+    {
+      "code": "62R021",
+      "goldWeight": "2.41",
+      "diamondWeight": "D1=0.03",
+      "field4": "D6=0.10",
+      "field5": "D42=0.31",
+      "yellowGoldPrice": "20000",
+      "whiteGoldPrice": "21300"
+    },
+    {
+      "code": "62R022",
+      "goldWeight": "2.94",
+      "diamondWeight": "D7=0.17",
+      "field4": "D42=0.22",
+      "field5": "",
+      "yellowGoldPrice": "21600",
+      "whiteGoldPrice": "23200"
+    },
+    {
+      "code": "62R023",
+      "goldWeight": "3.62",
+      "diamondWeight": "D7=0.29",
+      "field4": "D14=0.12",
+      "field5": "",
+      "yellowGoldPrice": "24000",
+      "whiteGoldPrice": "26000"
+    },
+    {
+      "code": "62R024",
+      "goldWeight": "7.37",
+      "diamondWeight": "D84=0.33",
+      "field4": "D53=0.73",
+      "field5": "D1=0.10",
+      "yellowGoldPrice": "57000",
+      "whiteGoldPrice": "61000"
+    },
+    {
+      "code": "62R025",
+      "goldWeight": "3.63",
+      "diamondWeight": "D7=0.38",
+      "field4": "D36=0.55",
+      "field5": "",
+      "yellowGoldPrice": "36000",
+      "whiteGoldPrice": "38000"
+    },
+    {
+      "code": "62R026",
+      "goldWeight": "3.82",
+      "diamondWeight": "D50=0.72",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "32800",
+      "whiteGoldPrice": "34900"
+    },
+    {
+      "code": "62R027",
+      "goldWeight": "3.88",
+      "diamondWeight": "D1=0.12",
+      "field4": "D22=0.29",
+      "field5": "",
+      "yellowGoldPrice": "27000",
+      "whiteGoldPrice": "29200"
+    },
+    {
+      "code": "62R028",
+      "goldWeight": "1.57",
+      "diamondWeight": "D1=0.1",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "11400",
+      "whiteGoldPrice": "12300"
+    },
+    {
+      "code": "62R029",
+      "goldWeight": "2.59",
+      "diamondWeight": "D2=0.09",
+      "field4": "D7=0.10",
+      "field5": "D17=0.11",
+      "yellowGoldPrice": "18200",
+      "whiteGoldPrice": "19600"
+    },
+    {
+      "code": "62R030",
+      "goldWeight": "2.28",
+      "diamondWeight": "D53=0.35",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "20000",
+      "whiteGoldPrice": "21300"
+    },
+    {
+      "code": "62R032",
+      "goldWeight": "1.91",
+      "diamondWeight": "D6=0.12",
+      "field4": "D7=0.21",
+      "field5": "",
+      "yellowGoldPrice": "16200",
+      "whiteGoldPrice": "17300"
+    },
+    {
+      "code": "62R033",
+      "goldWeight": "4.38",
+      "diamondWeight": "D8=0.21",
+      "field4": "D24=0.23",
+      "field5": "",
+      "yellowGoldPrice": "27000",
+      "whiteGoldPrice": "29400"
+    },
+    {
+      "code": "62R034",
+      "goldWeight": "1.65",
+      "diamondWeight": "D3=0.10",
+      "field4": "D13=0.08",
+      "field5": "",
+      "yellowGoldPrice": "11800",
+      "whiteGoldPrice": "12700"
+    },
+    {
+      "code": "62R035",
+      "goldWeight": "3.15",
+      "diamondWeight": "D51=0.47",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "24000",
+      "whiteGoldPrice": "25800"
+    },
+    {
+      "code": "62R036",
+      "goldWeight": "2.96",
+      "diamondWeight": "D14=0.07",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "13000",
+      "whiteGoldPrice": "14700"
+    },
+    {
+      "code": "62R037",
+      "goldWeight": "2.95",
+      "diamondWeight": "D7=0.17",
+      "field4": "D22=0.10",
+      "field5": "",
+      "yellowGoldPrice": "19000",
+      "whiteGoldPrice": "20600"
+    },
+    {
+      "code": "62R038",
+      "goldWeight": "1.79",
+      "diamondWeight": "D11=0.21",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "12000",
+      "whiteGoldPrice": "13000"
+    },
+    {
+      "code": "62R039",
+      "goldWeight": "2.39",
+      "diamondWeight": "D6=0.15",
+      "field4": "D20=0.09",
+      "field5": "",
+      "yellowGoldPrice": "16200",
+      "whiteGoldPrice": "17500"
+    },
+    {
+      "code": "62R040",
+      "goldWeight": "1.53",
+      "diamondWeight": "D12=0.08",
+      "field4": "D13=0.21",
+      "field5": "",
+      "yellowGoldPrice": "14000",
+      "whiteGoldPrice": "15000"
+    },
+    {
+      "code": "62R041",
+      "goldWeight": "2.70",
+      "diamondWeight": "D3=0.12",
+      "field4": "D6=0.12",
+      "field5": "D4=0.04",
+      "yellowGoldPrice": "17600",
+      "whiteGoldPrice": "19100"
+    },
+    {
+      "code": "62R042",
+      "goldWeight": "1.68",
+      "diamondWeight": "D1=0.05",
+      "field4": "D18=0.22",
+      "field5": "",
+      "yellowGoldPrice": "13800",
+      "whiteGoldPrice": "14800"
+    },
+    {
+      "code": "62R043",
+      "goldWeight": "2.12",
+      "diamondWeight": "D4=0.19",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "13000",
+      "whiteGoldPrice": "14200"
+    },
+    {
+      "code": "62R044",
+      "goldWeight": "3.45",
+      "diamondWeight": "D1=0.06",
+      "field4": "D27=0.16",
+      "field5": "",
+      "yellowGoldPrice": "19200",
+      "whiteGoldPrice": "21100"
+    },
+    {
+      "code": "62R045",
+      "goldWeight": "4.49",
+      "diamondWeight": "D7=0.16",
+      "field4": "D53=0.49",
+      "field5": "",
+      "yellowGoldPrice": "33400",
+      "whiteGoldPrice": "35900"
+    },
+    {
+      "code": "62R046",
+      "goldWeight": "4.22",
+      "diamondWeight": "D48=0.44",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "26600",
+      "whiteGoldPrice": "29000"
+    },
+    {
+      "code": "62R047",
+      "goldWeight": "6.04",
+      "diamondWeight": "D4=0.32",
+      "field4": "D28=0.11",
+      "field5": "",
+      "yellowGoldPrice": "39000",
+      "whiteGoldPrice": "42300"
+    },
+    {
+      "code": "62R048",
+      "goldWeight": "3.58",
+      "diamondWeight": "D1=0.08",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "16400",
+      "whiteGoldPrice": "18400"
+    },
+    {
+      "code": "62R049",
+      "goldWeight": "3.95",
+      "diamondWeight": "D1=0.10",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "18200",
+      "whiteGoldPrice": "20400"
+    },
+    {
+      "code": "62R050",
+      "goldWeight": "2.71",
+      "diamondWeight": "D110=0.46",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "25000",
+      "whiteGoldPrice": "26500",
+      "note": "เม็ดกลางสำหรับ 0.70"
+    },
+    {
+      "code": "62R051",
+      "goldWeight": "2.41",
+      "diamondWeight": "D1=0.13",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "14800",
+      "whiteGoldPrice": "16200"
+    },
+    {
+      "code": "62R052",
+      "goldWeight": "2.41",
+      "diamondWeight": "D1=0.13",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "14200",
+      "whiteGoldPrice": "15500"
+    },
+    {
+      "code": "62R053",
+      "goldWeight": "3.27",
+      "diamondWeight": "D6=0.02",
+      "field4": "D6=0.07",
+      "field5": "D20=0.12",
+      "yellowGoldPrice": "20600",
+      "whiteGoldPrice": "22400"
+    },
+    {
+      "code": "62R054",
+      "goldWeight": "2.96",
+      "diamondWeight": "D1=0.14",
+      "field4": "D12=0.07",
+      "field5": "",
+      "yellowGoldPrice": "20600",
+      "whiteGoldPrice": "22300"
+    },
+    {
+      "code": "62R055",
+      "goldWeight": "1.93",
+      "diamondWeight": "D1=0.12",
+      "field4": "D10=0.09",
+      "field5": "",
+      "yellowGoldPrice": "15000",
+      "whiteGoldPrice": "16100"
+    },
+    {
+      "code": "62R056",
+      "goldWeight": "2.23",
+      "diamondWeight": "D20=0.12",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "12000",
+      "whiteGoldPrice": "13300"
+    },
+    {
+      "code": "62R057",
+      "goldWeight": "4.73",
+      "diamondWeight": "D1=0.07",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "18400",
+      "whiteGoldPrice": "21000"
+    },
+    {
+      "code": "62R058",
+      "goldWeight": "5.75",
+      "diamondWeight": "D7=0.24",
+      "field4": "D14=0.16",
+      "field5": "D38=0.25",
+      "yellowGoldPrice": "39000",
+      "whiteGoldPrice": "42200"
+    },
+    {
+      "code": "62R059",
+      "whiteGoldWeight":"2.71",
+      "diamondWeight": "D28=0.18",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "14200",
+      "whiteGoldPrice": "15600"
+    },
+    {
+      "code": "62R060",
+      "goldWeight": "2.58",
+      "diamondWeight": "D34=0.23",
+      "field4": "?????????????? 0.50",
+      "field5": "",
+      "yellowGoldPrice": "17000",
+      "whiteGoldPrice": "18500"
+    },
+    {
+      "code": "62R061",
+      "goldWeight": "",
+      "diamondWeight": "",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "",
+      "whiteGoldPrice": ""
+    },
+    {
+      "code": "62R062",
+      "goldWeight": "4.40",
+      "diamondWeight": "D6=0.16",
+      "field4": "?????????????? 0.50",
+      "field5": "",
+      "yellowGoldPrice": "19800",
+      "whiteGoldPrice": "22300"
+    },
+    {
+      "code": "62R063",
+      "goldWeight": "4.82",
+      "diamondWeight": "D2=0.28",
+      "field4": "?????????????? 0.50",
+      "field5": "",
+      "yellowGoldPrice": "30800",
+      "whiteGoldPrice": "34000"
+    },
+    {
+      "code": "62R064",
+      "goldWeight": "3.34",
+      "diamondWeight": "D12=0.14",
+      "field4": "?????????????? 0.50",
+      "field5": "",
+      "yellowGoldPrice": "16400",
+      "whiteGoldPrice": "18500"
+    },
+    {
+      "code": "62R065",
+      "goldWeight": "4.28",
+      "diamondWeight": "D16=0.35",
+      "field4": "?????????????? 0.50",
+      "field5": "",
+      "yellowGoldPrice": "26800",
+      "whiteGoldPrice": "30000"
+    },
+    {
+      "code": "62R066",
+      "goldWeight": "2.78",
+      "diamondWeight": "D2=0.05",
+      "field4": "D52=0.35",
+      "field5": "?????????????? 0.50",
+      "yellowGoldPrice": "23200",
+      "whiteGoldPrice": "25000"
+    },
+    {
+      "code": "62R067",
+      "goldWeight": "2.65",
+      "diamondWeight": "D6=0.18",
+      "field4": "?????????????? 0.50",
+      "field5": "",
+      "yellowGoldPrice": "14400",
+      "whiteGoldPrice": "15600"
+    },
+    {
+      "code": "62R068",
+      "goldWeight": "3.98",
+      "diamondWeight": "D2=0.07",
+      "field4": "D6=0.14",
+      "field5": "D16=0.37",
+      "yellowGoldPrice": "29000",
+      "whiteGoldPrice": "32000"
+    }
+  ],
+  "EARING": [
+    {
+      "code": "62 E001",
+      "goldWeight": "4.54",
+      "diamondWeight": "D24=0.20",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "21500",
+      "whiteGoldPrice": "24000"
+    },
+    {
+      "code": "62E002",
+      "whiteGoldWeight":"1.18",
+      "diamondWeight": "D2=0.10",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "7400",
+      "whiteGoldPrice": "8000"
+    },
+    {
+      "code": "62E003",
+      "goldWeight": "",
+      "diamondWeight": "",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "",
+      "whiteGoldPrice": ""
+    },
+    {
+      "code": "62E004",
+      "goldWeight": "2.37",
+      "diamondWeight": "D2=0.06",
+      "field4": "D12=0.20",
+      "field5": "",
+      "yellowGoldPrice": "15600",
+      "whiteGoldPrice": "16900"
+    },
+    {
+      "code": "62E005",
+      "goldWeight": "3.38",
+      "diamondWeight": "D16=0.28",
+      "field4": "D56=0.30",
+      "field5": "",
+      "yellowGoldPrice": "33000",
+      "whiteGoldPrice": "34900"
+    },
+    {
+      "code": "62E006",
+      "goldWeight": "4.52",
+      "diamondWeight": "D14=0.66",
+      "field4": "D36=0.47",
+      "field5": "",
+      "yellowGoldPrice": "46000",
+      "whiteGoldPrice": "48500"
+    },
+    {
+      "code": "62E007",
+      "goldWeight": "",
+      "diamondWeight": "",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "",
+      "whiteGoldPrice": ""
+    },
+    {
+      "code": "62E008",
+      "goldWeight": "4.07",
+      "diamondWeight": "D8=0.25",
+      "field4": "D26=0.42",
+      "field5": "D40=0.19",
+      "yellowGoldPrice": "40000",
+      "whiteGoldPrice": "42300"
+    },
+    {
+      "code": "62E009",
+      "goldWeight": "",
+      "diamondWeight": "",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "",
+      "whiteGoldPrice": ""
+    },
+    {
+      "code": "62E010",
+      "goldWeight": "",
+      "diamondWeight": "",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "",
+      "whiteGoldPrice": ""
+    },
+    {
+      "code": "62E011",
+      "goldWeight": "4.10",
+      "diamondWeight": "D14=0.49",
+      "field4": "D40=0.35",
+      "field5": "",
+      "yellowGoldPrice": "37000",
+      "whiteGoldPrice": "39300"
+    }
+  ],
+  "PANDANT": [
+    {
+      "code": "62P001",
+      "goldWeight": "2.51",
+      "diamondWeight": "D40=0.32",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "26600",
+      "whiteGoldPrice": "28000"
+    },
+    {
+      "code": "62P002",
+      "goldWeight": "4.84",
+      "diamondWeight": "D13=0.16",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "21200",
+      "whiteGoldPrice": "23900"
+    },
+    {
+      "code": "62P003",
+      "goldWeight": "4.70",
+      "diamondWeight": "D8=0.10",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "19200",
+      "whiteGoldPrice": "21800"
+    },
+    {
+      "code": "62P004",
+      "goldWeight": "1.34",
+      "diamondWeight": "D3=0.33",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "20400",
+      "whiteGoldPrice": "21200"
+    },
+    {
+      "code": "",
+      "goldWeight": "",
+      "diamondWeight": "",
+      "field4": "",
+      "field5": "",
+      "yellowGoldPrice": "0",
+      "whiteGoldPrice": "0"
+    }
+  ]
+}
